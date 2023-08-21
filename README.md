@@ -128,4 +128,4 @@ The flask documentation can be found [here](https://flask.palletsprojects.com/en
 
    Where the xs represent the ip address of your computer
 
-5. Now you can open a new browser in your mobile and use the URL xxx.xxx.x.xxx:5000
+5. Now you can open a new browser on your mobile and use the URL xxx.xxx.x.xxx:5000
