@@ -6,7 +6,7 @@
 
 Bringing your code to others is called **distribution**. There are different approaches, this repository showcases a Python web application using Flask.
 
-The flask documentation can be found [here](https://buildmedia.readthedocs.org/media/pdf/flask/0.9/flask.pdf)
+The flask documentation can be found [here](https://flask.palletsprojects.com/en/2.3.x/)
 
 ## Installation
 
