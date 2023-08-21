@@ -113,6 +113,7 @@ The flask documentation can be found [here](https://flask.palletsprojects.com/en
    
 
 ## Accessing your Flask App on your Mobile Device
+You can access a Flask App from any other device that is on the same network.
 
 1. Make sure your computer running the flask app and mobile device are on the same network
 
