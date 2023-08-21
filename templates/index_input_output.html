@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UTF-8'>
+	<link rel="stylesheet" href="static/css/style.css">
+	<title>FlaskApp</title>
+</head>
+<body>
+	<h1>Welcome to my App</h1>
+	<form method="POST">
+		<label>Year:</label>
+		# the double {{}} pulls the variable from our python script
+	  	<input name=year type="text" value={{year}}><br><br>
+	  	<input type="submit" value="Submit"><br><br>
+	</form>
+	<table border=1>
+		{% for song in songs %}
+		<tr>
+			<th>{{song}}</th>
+		</tr>
+		{% endfor %}
+	</table>
+</body>
+</html>
