@@ -111,3 +111,21 @@ The flask documentation can be found [here](https://flask.palletsprojects.com/en
    ```
 
    
+
+## Accessing your Flask App on your Mobile Device
+
+1. Make sure your computer running the flask app and mobile device are on the same network
+
+2. You will need to make sure your computer has this network marked as 'Private', not 'Public'
+
+3. Check the ip address of your computer
+
+4. Run the app with this additional argument 
+
+   ```
+   flask run -h xxx.xxx.x.xxx
+   ```
+
+   Where the xs represent the ip address of your computer
+
+5. Now you can open a new browser in your mobile and use the URL xxx.xxx.x.xxx:5000

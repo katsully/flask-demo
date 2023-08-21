@@ -17,7 +17,6 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 # return a list of song title
 def get_tracks(year):
-	print(year)
 	year_str = 'year:'+ year
 	track_results = sp.search(q=year_str, type='track', limit=50)
 

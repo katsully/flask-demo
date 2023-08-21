@@ -7,6 +7,7 @@ from spotify_input import get_tracks
 app = Flask(__name__, '/static')
 # add a debugger
 app.config["DEBUG"] = True
+
 # give a default year since the get_tracks function now requires a year argument
 year='2021'
 
@@ -15,7 +16,7 @@ year='2021'
 @app.route('/')
 def index():
 	songs = get_tracks(year)
-	return render_template('index_input_output.html', songs = songs)
+	return render_template('index_input_output.html', songs=songs, year=year)
 
 @app.route('/', methods = ['POST'])
 def index_post():
