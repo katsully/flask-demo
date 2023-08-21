@@ -12,10 +12,10 @@ The flask documentation can be found [here](https://flask.palletsprojects.com/en
 
 1. Create a virtual environment and activate it
 
-2. Install flask using 
+2. Install flask (and other needed libraries) with the requirements.txt file
 
    ```
-   pip install flask
+   pip install -r requirements.txt
    ```
 
 3. To confirm installation, run the following line of code 
