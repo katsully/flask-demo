@@ -76,7 +76,7 @@ Bringing your code to others is called **distribution**. There are different app
 
 3. Take a look at templates/index_output.html We can use the variable we set up in app_output.py to build out a HTML table.
 
-4. Change the flask app from hello.py to app.py by 
+4. Change the flask app to app_output.py by 
 
    ```
    set FLASK_APP=app_output
@@ -84,10 +84,28 @@ Bringing your code to others is called **distribution**. There are different app
 
 5. Run the app with 
 
-```
-flask run
-```
+   ```
+   flask run
+   ```
 
-
+   
 
 ## Adding Input from HTML to your Python Script
+
+1. Take a look at templates/index_input_output.html. We are adding a form that will allow the user to input a year and receive the top tracks for that year. 
+
+2. Inside the spotify_input.py file, we modified the get_tracks function to take an argument, *year*. So we are passing the input value from the HTML file's form, to the view function in app_input_output.py to the function get_tracks
+
+3. Change the flask app to app_input_output.py by 
+
+   ```
+   set FLASK_APP=app_input_output
+   ```
+
+4. Run the app with 
+
+   ```
+   flask run
+   ```
+
+   
